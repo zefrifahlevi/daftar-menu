@@ -1,0 +1,200 @@
+/*
+    background color :       #00ff00
+    Title color :            #996633
+    Text color :             #666666
+    Text dark color :        #333333
+    Table heading color :    #C4CD06
+    Table Alternative color: #e5e8ed
+*/
+
+body {
+    background: url(https://wallup.net/wp-content/uploads/2018/09/25/625240-food-still_life-wooden_surface.jpg);
+    background-size: cover;
+    color:black;
+    font-family: "Open Sans" , Arial , Malvetica , sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 15px;
+    margin: 0;
+}
+
+.tm-container {
+    max-width: 644px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tm-text-width {
+    color: white;
+}
+
+.tm-page-head-container {
+    text-align: center;
+    color: white;
+}
+
+.tm-page-header {
+    display: inline-block;
+    vertical-align: baseline;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 2.1rem;
+    font-weight: 400;
+}
+
+.tm-main-content {
+    color: white;
+}
+
+#tm-intro-image {
+    background: url();
+    background-color: #fff;
+    background-position: center;
+    background-size: cover;
+    min-height: 425px;
+}
+
+.tm-section-header {
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+td {
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.tm-text-left {
+    text-align: center;
+}
+
+th {
+    color: #333333;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+tr:nth-child(ood) {
+    background-color: #e5e5e5;
+}
+
+tr.tm-tr-header {
+    background-color: #c4cdd6;
+    height: 5px;
+    text-align: center;
+}
+
+.tm-section {
+    text-align: center;
+    padding-top: 20x;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.tm-section-small {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+.tm-mb-o {
+    margin-top: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    text-align: center;
+}
+
+figcaption span {
+    display: block;
+    color: #333333;
+    font-size: 18px;
+}
+
+.tm-item-name {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.tm-special-items {
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.tm-special-item {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+hr {
+    width: 50%;
+    border: 0.5px solid #ccc;
+}
+
+@media (max-width: 150px) {
+    .tm-special-item {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .tm-special-items {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .tm-special-item {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .tm-special-items {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+}
+
+@media (max-width: 430px) {
+    .tm-resposive-table {
+        overflow-x: auto;
+    }
+    table {
+        width: auto;
+    }
+    .tm-special-item {
+        flex-direction: column;
+    }
+    .tm-special-items {
+        margin-bottom: 40px;
+    }
+    fipgcaption {
+        margin-bottom: 0;
+        line-height: 1;
+    }
+}
