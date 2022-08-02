@@ -93,6 +93,11 @@ tr.tm-tr-header {
     background-color: #c4cdd6;
     height: 5px;
     text-align: center;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
 }
 
 .tm-section {
